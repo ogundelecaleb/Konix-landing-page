@@ -635,6 +635,9 @@ footer .copyright {
   .header .header-item {
     justify-content: space-between;
   }
+  .hero-section {
+    padding-top: 40px
+  }
   .header .navbar {
     position: absolute;
     top: 110%;
@@ -677,6 +680,22 @@ footer .copyright {
   .hero-section .box .right-box {
     max-width: 100%;
   }
+  .hero-section .box .left-box h2 {
+    font-size: 4.5rem;
+  }
+
+   .hero-section .download-app img {
+    width: 100px
+   }
+
+  .hero-section .designer-logos{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: auto auto auto;
+  }
+  .hero-section .designer-logos li img{
+     height: 40px;
+  }
   .benefit .box {
     display: inline-block;
   }
@@ -689,6 +708,9 @@ footer .copyright {
   }
   .how-it-works .box {
     display: inline-block;
+  }
+  .how-it-works .box .right-box li {
+    padding: 16px 16px;
   }
   .how-it-works .box .left-box {
     max-width: 100%;
