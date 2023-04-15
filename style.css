@@ -389,13 +389,14 @@ section {
   -o-border-radius: 50%;
 }
 
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
   color: var(--main);
 }
 
 .app-download {
   height: 400px;
-  background: rgb(155,81,224);
+  background: rgb(155, 81, 224);
   padding: 82px 0;
   text-align: center;
 }
@@ -415,7 +416,7 @@ section {
   line-height: 160%;
 }
 
-.download-app{
+.download-app {
   display: flex;
   justify-content: center;
 }
@@ -575,7 +576,7 @@ footer .copyright {
 .faq .headings i {
   color: var(--text);
 }
-.faq .container .info-container{
+.faq .container .info-container {
   padding: 3rem 5rem;
   background-color: lavender;
 }
@@ -636,7 +637,7 @@ footer .copyright {
     justify-content: space-between;
   }
   .hero-section {
-    padding-top: 40px
+    padding-top: 40px;
   }
   .header .navbar {
     position: absolute;
@@ -645,7 +646,7 @@ footer .copyright {
     width: 30rem;
     box-shadow: var(--box-shadow);
     border-radius: 0.5rem;
-    display: block;
+    display: none;
     background-color: #eee;
     -webkit-border-radius: 0.5rem;
     -moz-border-radius: 0.5rem;
@@ -657,6 +658,7 @@ footer .copyright {
   }
   .header .navbar.active {
     right: 2rem;
+    display: block;
     transition: 0.3s linear;
     -webkit-transition: 0.3s linear;
     -moz-transition: 0.3s linear;
@@ -684,17 +686,24 @@ footer .copyright {
     font-size: 4.5rem;
   }
 
-   .hero-section .download-app img {
-    width: 100px
-   }
+  .hero-section .download-app img {
+    width: 100px;
+  }
 
-  .hero-section .designer-logos{
+  .hero-section .designer-logos {
     display: grid;
     gap: 16px;
     grid-template-columns: auto auto auto;
   }
-  .hero-section .designer-logos li img{
-     height: 40px;
+  .hero-section .designer-logos li img {
+    height: 40px;
+  }
+
+  .faq h2,
+  .review h2,
+  .how-it-works h2 {
+    font-size: 3.0rem;
+    margin-bottom: 4rem;
   }
   .benefit .box {
     display: inline-block;
@@ -709,8 +718,9 @@ footer .copyright {
   .how-it-works .box {
     display: inline-block;
   }
+
   .how-it-works .box .right-box li {
-    padding: 16px 16px;
+    padding: 16px 0;
   }
   .how-it-works .box .left-box {
     max-width: 100%;
